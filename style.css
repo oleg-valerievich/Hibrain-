@@ -1,0 +1,951 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+flex-sb {
+  justify-content: space-between;
+}
+
+.font-100 {
+  font-weight: 100;
+}
+.font-200 {
+  font-weight: 200;
+}
+.font-300 {
+  font-weight: 300;
+}
+.font-400 {
+  font-weight: 400;
+}
+.font-500 {
+  font-weight: 500;
+}
+.font-600 {
+  font-weight: 600;
+}
+.font-700 {
+  font-weight: 700;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto; /*Выравнивание текста по середине*/
+  height: 80px; /*Высота меню*/
+}
+
+.logo {
+  width: 120px;
+  padding-top: 15px;
+}
+
+.main-menu li {
+  height: 10px;
+  flex-grow: 1;
+  column-gap: 70px;
+  list-style: none;
+  text-decoration: none; /*Убрал маркеры*/
+}
+
+.main-menu a {
+  text-decoration: none; /*Убрал подчеркивание текста в меню*/
+}
+
+.menu-left {
+  margin-bottom: -10px;
+  width: 700px;
+  align-items: center;
+  column-gap: 20px;
+  margin-left: 170px;
+  margin-top: -40px;
+}
+
+.menu-right {
+  width: 250px;
+  align-items: center;
+  column-gap: 6px;
+  margin-left: 870px;
+}
+
+.textheader {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  color: #342b2b;
+}
+
+.vector {
+  /*Стрелка меню справа от Сотрудничества*/
+
+  /*Не знаю как подвинуть*/
+}
+
+.cards-background {
+  background-color: #eef1f2;
+  height: 743px;
+}
+
+.section-banner-one {
+  width: 1170px;
+  margin: 0 auto auto; /*Выравнивание текста по середине*/
+}
+
+.Fullstack-banner {
+  padding-top: 108px;
+}
+
+.Fullstack {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  color: #342b2b;
+}
+
+.logo-js-img {
+  margin-top: -450px;
+  margin-left: 790px;
+  justify-content: flex-end;
+}
+
+.kurs-Fullstack {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Rubik", sans-serif;
+  color: #342b2b;
+}
+
+.btnRegistration {
+  /*Кнопка Регистрация */
+  color: #1e3daf;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  margin-left: -30px; /*отступ между кнопками */
+}
+
+.REG {
+  /*Текст Кнопки Регистрация */
+  position: absolute;
+  width: 150px;
+  height: 36px;
+  top: 22px;
+  border-radius: 4px;
+  background: #f1f3f5;
+}
+
+.btnEntrance {
+  /*Кнопка Вход */
+  color: #f1f3f5;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  margin-right: 20px; /*отступ между кнопками */
+}
+
+.ENT {
+  /*Кнопка текст Вход */
+  position: absolute;
+  width: 86px;
+  height: 36px;
+  top: 22px;
+  border-radius: 4px;
+  background: #1e3daf;
+}
+
+.color-black p {
+  color: #342b2b;
+  font-weight: 300; /*:Жирность текста*/
+}
+
+.Srok b {
+  width: 190px;
+  height: 24px; /*Опустить текст */
+  padding-top: 50px; /*Высота текста */
+  font-weight: 700; /*:Жирность текста*/
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.Srok p {
+  padding-bottom: 240px; /*Высота нижнего текста */
+  width: 250px; /*Объем контейнера px */
+  margin-left: -85px; /*Двигаем текст влево вправо полностью*/
+  margin-top: 311px; /*Опустить нижний текст */
+  font-weight: 300; /*:Жирность текста*/
+  font-size: 16px;
+  color: #342b2b;
+}
+
+.text-Srok2-two-niz {
+  margin-top: 10px;
+  color: #342b2b;
+  font-weight: 300;
+}
+
+.text-Srok2-three p {
+  color: #342b2b;
+  font-weight: 300;
+}
+
+.text-Srok2-four p {
+  color: #342b2b;
+  font-weight: 300;
+}
+
+.text-Srok2-three p {
+  margin-top: 10px;
+}
+
+.text-Srok2-four p {
+  margin-top: 10px;
+}
+
+.Srok2 {
+  width: 300px;
+  margin-left: 190px;
+  margin-top: -20px;
+}
+
+.Srok3 {
+  width: 300px;
+  margin-left: 461px;
+  margin-top: -64px;
+}
+
+.Srok4 {
+  width: 300px;
+  margin-left: 690px;
+  margin-top: -66px;
+}
+
+.text-Srok2-two-niz p {
+  font-weight: 300; /*:Жирность текста*/
+  color: #342b2b;
+}
+
+.button-Zapusi {
+  /*Кнопки*/
+  width: 274px;
+  height: 48px;
+  left: 374px;
+  margin-top: 55px;
+  background: #1e3daf;
+  border-radius: 4px;
+  color: #fff;
+  border-color: #fff;
+  font-size: 16px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.cards-background-block2 {
+  height: 584px; /*Высота карточки*/
+}
+
+.section-banner-two {
+  width: 1170px;
+  margin: 0 auto auto;
+}
+
+.about-the-course-banner-two {
+  margin-top: 85px; /*Опустил на надпись О курсе*/
+}
+
+.text-course {
+  position: absolute;
+  height: 116px;
+  top: 1005px; /*Опустил описание ниже от О курсе*/
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #342b2b;
+}
+
+.personal {
+  margin-left: 681px; /*Подвинул фото*/
+  margin-top: -55px; /*Опустил фото*/
+}
+
+.Prog-foto {
+  width: 600px; /*Уменьшил контейнер что бы значки не выходили 
+  за пределы*/
+}
+
+.Prog-foto {
+  justify-content: space-between; /*Расстояние между колонками*/
+  list-style: none;
+}
+
+.program-coure ul li {
+  text-align: center; /*Выровнил картинки над текстом*/
+}
+
+.section-banner-two {
+  width: 1170px;
+  margin: 0 auto auto; /*Выравнивание текста по середине*/
+  height: 500px;
+}
+
+.zag1 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 92px; /*Опустить текст*/
+  padding-left: 41px; /*Подвинуть текст h1враво для картинки*/
+}
+
+.zag2 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 92px;
+  padding-left: 41px; /*Подвинуть текст h1 враво для картинки*/
+}
+
+.block-one {
+  position: absolute;
+  width: 565px;
+  background: #ffffff;
+  box-shadow: 0px 32px 42px rgba(30, 61, 175, 0.04);
+  border-radius: 4px;
+  height: 398px;
+}
+
+.block-two {
+  /*Колонки*/
+  position: absolute;
+  margin-left: 586px;
+  width: 565px;
+  background: #ffffff;
+  box-shadow: 0px 32px 42px rgba(30, 61, 175, 0.04);
+  border-radius: 4px;
+  height: 398px;
+}
+
+.art-two p {
+  /*Текст*/
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 41px; /*Подвинуть текст враво для картинки*/
+}
+
+.art-two p {
+  margin-left: 61px; /*Подвинуть маркер*/
+  background: url(img/marker.svg) no-repeat left center;
+}
+
+.section-banner-three {
+  width: 1170px;
+  margin: 0 auto auto; /*Выравнивание текста по середине*/
+  height: 350px;
+}
+
+.ex-text {
+  position: absolute;
+  width: 123px;
+  height: 32px;
+  margin-top: 40px;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #342b2b;
+}
+
+.opi-frends {
+  position: absolute;
+  width: 764px;
+  height: 72px;
+  margin-top: 130px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+}
+
+.komanda {
+  margin-top: 0px;
+  list-style: none; /*Убрал подчеркивание*/
+}
+
+.komanda ul li {
+  text-align: center; /*Выровнил картинки над текстом*/
+}
+
+.section-banner-four {
+  width: 1170px;
+  margin: 0 auto auto; /*Выравнивание текста по середине*/
+  height: 450px;
+}
+
+.Terichev-Maksim {
+  margin-top: -83px;
+}
+
+.Hramov-Aleksei {
+  margin-top: -83px;
+  margin-left: 80px;
+}
+
+.Talanov-Maksim {
+  margin-top: -83px;
+  margin-left: 130px;
+}
+
+.free-vacancy {
+  margin-top: -83px;
+  margin-left: 130px;
+}
+
+.Terichev-texth2 {
+  /* Текст h2*/
+  font-size: 21px;
+}
+
+.hramov-texth2 {
+  /* Текст h2*/
+  margin-left: 75px;
+  font-size: 21px;
+}
+
+.talanov-texth2 {
+  /* Текст h2*/
+  margin-left: 125px;
+  font-size: 21px;
+}
+
+.Terichev-textp {
+  /* Текст p*/
+  font-size: 14px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.Hramov-textp {
+  /* Текст p*/
+  margin-left: 75px;
+  font-size: 14px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.Talanov-textp {
+  /* Текст p*/
+  margin-left: 125px;
+  font-size: 14px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.blue-Hramov {
+  margin-left: 75px;
+}
+
+.blue-Talanov {
+  margin-left: 125px;
+}
+
+.blue-vacancy {
+  margin-top: 47px;
+  margin-left: 128px;
+}
+
+.line-polos {
+  /*Серая полоса*/
+  width: 1170px;
+  margin: 0 auto; /*Выравнивание текста по середине*/
+  height: 150px;
+  margin-bottom: 100px;
+}
+
+.Career-description {
+  width: 1170px;
+  margin: 0 auto; /*Выравнивание текста по середине*/
+  height: 353px;
+}
+
+.Career-Text {
+  margin-top: -88px;
+  size: 24px;
+  line-height: 32px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+}
+
+.graduates p {
+  margin-top: 41px;
+  font-family: "Rubik";
+  font-weight: 300px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.intel-foto {
+  margin-top: 17px;
+  padding-top: 40px;
+}
+
+.intel-2 {
+  margin-left: 40px;
+}
+
+.intel-3 {
+  margin-left: 40px;
+}
+.intel-4 {
+  margin-left: 40px;
+}
+.intel-5 {
+  margin-left: 40px;
+}
+.intel-6 {
+  margin-left: 40px;
+}
+.intel-7 {
+  margin-left: 40px;
+}
+.intel-8 {
+  margin-left: 40px;
+}
+.intel-9 {
+  margin-left: 40px;
+}
+.intel-10 {
+  margin-left: 40px;
+}
+.intel-11 {
+  margin-left: 40px;
+}
+
+.cards-banner-five {
+  background-color: #eef1f2;
+  height: 957px;
+  padding-top: 40px; /*Отступ текста вниз "Программа текста"*/
+}
+
+.section-banner-five {
+  width: 1170px;
+  margin: 0 auto auto; /*Выравнивание текста по середине*/
+}
+
+.block-structure-text {
+  margin-bottom: 90px;
+  margin-top: 121px;
+}
+
+
+
+
+.block-text {
+  position: absolute;
+  width: 867px;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: 2;
+  height: 250px;
+  
+}
+
+.krest-foto-1{
+margin-left: 800px;
+margin-top: 10px;
+}
+
+.block-text h2 {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  color: #342B2B;
+  padding-left: 24px;
+  height: 34px;
+  margin-top: -30px;
+}
+
+.block-text p {
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+align-items: center;
+color: #342B2B;
+padding-bottom: 56px;
+padding-left: 24px;
+}
+
+
+
+
+.block-text2 {
+  position: absolute;
+  width: 867px;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: 3;
+  margin-top: 270px;
+  height:80px ;
+  
+  
+}
+
+
+.krest-foto-2 {
+  margin-left: 800px;
+  
+
+}
+
+.block-text2 h2 {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  color: #342B2B;
+  padding-left: 24px;
+  height: 34px;
+  margin-top: -30px;
+}
+
+
+.block-text3 {
+  position: absolute;
+  width: 867px;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: 4;
+  margin-top: 370px;
+  height: 80px;
+}
+
+
+
+.krest-foto-3 {
+  margin-left: 800px;
+  margin-top: 6px;
+}
+
+
+.block-text3 h2 {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  color: #342B2B;
+  padding-left: 24px;
+  height: 34px;
+  margin-top: -40px;
+}
+
+
+.woman-foto {
+  position: relative;
+  margin-top: -61px;
+  margin-left: 760px;
+  z-index: 1;  /*Закрепить картинку на месте*/
+  
+}
+
+
+
+.cards-banner-six {
+  background-color: #1E3DAF;
+  height: 237px;
+  padding-top: 40px; /*Отступ текста вниз "Программа текста"*/
+}
+
+.section-banner-six {
+  width: 1170px;
+  margin: 0 auto auto; /*Выравнивание текста по середине*/
+}
+
+.container-nngu {
+  position: absolute;
+  width: 1170px;
+  height: 296px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-top: -180px;
+}
+
+
+.NNGU-foto {
+  margin-top: 70px;
+  margin-left: 800px;
+}
+
+.button-nngu {
+  /*Кнопки*/
+  width: 274px;
+  height: 48px;
+  left: 374px;
+  margin-top: -15px;
+  margin-left: 40px;
+  background: #1e3daf;
+  border-radius: 4px;
+  color: #fff;
+  border-color: #fff;
+  font-size: 16px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+
+.text-Sign-course {  /*Текст Записаться на курс*/
+  position: absolute;
+  width: 243px;
+  height: 32px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  align-items: center;
+  font-feature-settings: 'pnum' on, 'lnum' on; 
+  color: #342B2B;
+  margin-top: 40px;
+  margin-left: 45px;
+}
+
+.platform-nngu {  /*Контейнер Площадка проведения ННГУ*/
+position: absolute;
+width: 219px;
+height: 24px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+align-items: center;
+color: #342B2B;
+margin-left: 75px;
+margin-top: 90px;
+}
+
+.platform-nngu p { /*Текст Площадка проведения ННГУ*/
+margin-left: 60px;
+position: absolute;
+width: 219px;
+height: 24px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+align-items: center;
+color: #342B2B;
+margin-left: 40px;
+margin-top: 5px;
+}
+
+.nn-gagarina {
+  position: absolute;
+  width: 401px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-style: 16px;
+  line-height: 24px;
+  align-items: center;
+  color: #342B2B;
+}
+
+
+.nn-gagarina p {  /*Текст Нижний Новгород проспект Гагарина*/
+  
+  width: 401px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-style: 16px;
+  line-height: 24px;
+  align-items: center;
+  color: #342B2B;
+  margin-left: 38px;
+  
+}
+
+.platform-nngu  {
+  margin-left: 45px; /*Подвинуть маркер*/
+  background: url(img/map.svg) no-repeat left center;
+}
+
+.nn-gagarina {
+  margin-left: 45px; /*Подвинуть маркер*/
+  margin-top: 125px;
+  background: url(img/home.svg) no-repeat left center;
+}
+
+.polosa_silver {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 40px;
+}
+
+.cards-banner-seven {
+  background-color: #2A2F37;
+  height: 304px;
+  padding-top: 40px; /*Отступ текста вниз "Программа текста"*/
+}
+
+.section-banner-seven {
+  width: 1170px;
+  margin: 0 auto auto; /*Выравнивание текста по середине*/
+}
+
+
+.logo_footer {
+  position: absolute;
+  height: 40px;
+  margin-top: 20px;
+  
+}
+
+.footer_silver {
+  margin-left: 130px;
+  margin-top: 20px;
+}
+
+.text-platform-training {
+  position: absolute;
+  width: 247px;
+  height: 31px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 129.14%;
+  align-items: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-left: 170px;
+  margin-top: -45px;
+}
+
+.category-art {
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  margin-left: 1000px;
+  margin-top: -30px;
+}
+
+
+.footer-menu {
+  width: 1291px;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 90px;
+  margin-left: -65px;
+  
+ 
+
+}
+
+.footer-menu a {
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 400;
+  line-height: 130.35%;
+  text-decoration: none;
+  
+}
+
+
+.footer-menu-niz {
+  width: 1394px;
+  
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 70px;
+  margin-left: -95px;
+  
+}
+
+.footer-menu-niz a {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-size: 12px;
+  color: #FFFFFF;
+  font-weight: 300;
+  line-height: 129.14%;
+  text-decoration: none;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  opacity: 0.5;
+  
+}
+.Lad-text {
+  margin-left: -14px;
+}
+
+.konfund {
+  margin-left: 33px;
+}
+.email {
+  margin-left: 33px;
+}
+
+.phone-footer {
+  margin-right: 33px;
+}
